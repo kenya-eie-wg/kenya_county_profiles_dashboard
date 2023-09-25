@@ -1,0 +1,13 @@
+name: kenya_county_profiles_dashboard
+title: kenya_county_profiles_dashboard
+username:
+account: seanywng
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 9977013
+bundleId: 7724183
+url: https://seanywng.shinyapps.io/kenya_county_profiles_dashboard/
+when: 1695643047.63396
+lastSyncTime: 1695643047.63396
+asMultiple: FALSE
+asStatic: FALSE
