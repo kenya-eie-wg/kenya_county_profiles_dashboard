@@ -5,9 +5,9 @@ account: seanywng
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 9977013
-bundleId: 7724183
+bundleId: 7728492
 url: https://seanywng.shinyapps.io/kenya_county_profiles_dashboard/
-when: 1695643047.63396
-lastSyncTime: 1695643047.63396
+when: 1695719243.282
+lastSyncTime: 1695719243.282
 asMultiple: FALSE
 asStatic: FALSE

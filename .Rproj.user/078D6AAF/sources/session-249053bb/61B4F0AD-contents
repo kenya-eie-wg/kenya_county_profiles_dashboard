@@ -12,6 +12,9 @@ library(tidyverse)
 library(shinydashboard)
 library(sf)
 library(scales)
+library(gridExtra)
+library(ggpubr)
+library(shinyscreenshot)
 
 locations <- read_csv("./data/locations.csv")
 
@@ -82,7 +85,7 @@ make_dodged_plot_4 <- function(tbl) {
 
 
 ui <- dashboardPage(
-  dashboardHeader(title = "County Education Profiles"), 
+  dashboardHeader(title = "County Profiles"), 
   
   dashboardSidebar(
     sidebarMenu(
@@ -115,10 +118,16 @@ ui <- dashboardPage(
               
               fluidRow(box(uiOutput("county_selector_1"),
                            width = 4), 
-                       box(plotOutput("county_population_1"), 
+                       box(actionButton(inputId = "screenshot_1", 
+                                        label = "Screenshot Page"), 
+                           width = 4)),
+              
+              fluidRow(box(plotOutput("county_population_1"), 
                               width = 4),
                        box(plotOutput("school_aged_children_1"), 
-                              width = 4)
+                              width = 4), 
+                       box(textOutput("sources_1"), 
+                           width = 4)
                        ), 
               
               fluidRow(box(plotOutput("oos_preprimary_1"), 
@@ -132,7 +141,9 @@ ui <- dashboardPage(
       
       tabItem(tabName = "education_indicators", 
               
-              fluidRow(box(uiOutput("county_selector_2"))), 
+              fluidRow(box(uiOutput("county_selector_2")), 
+                       box(actionButton(inputId = "screenshot_2", 
+                                        label = "Screenshot Page"))), 
               
               fluidRow(box(plotOutput("net_enrolment_rate_2"), width = 6), 
                        box(plotOutput("gender_parity_index_2"), width = 6)), 
@@ -143,7 +154,9 @@ ui <- dashboardPage(
       
       tabItem(tabName = "child_protection_indicators", 
               
-              fluidRow(box(uiOutput("county_selector_3"))), 
+              fluidRow(box(uiOutput("county_selector_3")), 
+                       box(actionButton(inputId = "screenshot_3", 
+                                        label = "Screenshot Page"))), 
               
               fluidRow(box(plotOutput("child_protection_indicators_3"), 
                            width = 10))
@@ -151,7 +164,9 @@ ui <- dashboardPage(
       
       tabItem(tabName = "school_based_ratios", 
               
-              fluidRow(box(uiOutput("county_selector_4"))), 
+              fluidRow(box(uiOutput("county_selector_4")), 
+                       box(actionButton(inputId = "screenshot_4", 
+                                        label = "Screenshot Page"))), 
               
               fluidRow(box(plotOutput("education_institutions_4"), width = 6), 
                        box(plotOutput("learner_teacher_ratio_4"), width = 6)), 
@@ -162,10 +177,12 @@ ui <- dashboardPage(
       
       tabItem(tabName = "map_asal_counties", 
               
-              fluidRow(box(uiOutput("county_selector_5"))),
+              fluidRow(box(uiOutput("county_selector_5")), 
+                       box(actionButton(inputId = "screenshot_5", 
+                                        label = "Screenshot Page"))),
               
               fluidRow(box(plotOutput("map_asal_counties_5"),
-                           width = 12)))
+                           width = 12, height = 425)))
     )
   )
 )
@@ -218,7 +235,7 @@ server <- function(input, output) {
                   choices = asal_county_list)
       
     })
-    
+
     
   output$county_population_1 <- renderPlot({
       
@@ -237,13 +254,14 @@ server <- function(input, output) {
                                  pull(value) %>%
                                  format(big.mark = ",")))
       
+      
     })
     
   output$school_aged_children_1 <- renderPlot({
       
       req(input$v_county_1)
       
-      counties %>% 
+     counties %>% 
         filter(county == input$v_county_1) %>% 
         filter(str_detect(indicator, "school_age_children") & 
                  sex_modifier != "total") %>% 
@@ -256,6 +274,8 @@ server <- function(input, output) {
                                           age_modifier == "total") %>%
                                  pull(value) %>%
                                  format(big.mark = ",")))
+      
+      
     })
  
   output$oos_preprimary_1 <- renderPlot({
@@ -277,7 +297,8 @@ server <- function(input, output) {
                                pull(value) %>%
                                format(big.mark = ","))) + 
       theme(plot.subtitle = element_text(hjust = 0))
-  })
+    
+      })
   
   output$oos_primary_1 <- renderPlot({
     
@@ -298,6 +319,7 @@ server <- function(input, output) {
                                pull(value) %>%
                                format(big.mark = ","))) + 
       theme(plot.subtitle = element_text(hjust = 0))
+    
   })
   
   output$oos_secondary_1 <- renderPlot({
@@ -319,6 +341,7 @@ server <- function(input, output) {
                                pull(value) %>%
                                format(big.mark = ","))) + 
       theme(plot.subtitle = element_text(hjust = 0))
+    
   })
   
   output$net_enrolment_rate_2 <- renderPlot({
@@ -637,9 +660,46 @@ server <- function(input, output) {
       labs(title = paste0("Location of ", input$v_county_5, " County"))
   })
   
+
+  observeEvent(input$screenshot_1, {
+    shinyjs::addCssClass(selector = "body", class = "sidebar-collapse")
+    screenshot(
+      # selector = "body > div > div > section"
+      filename = paste0(input$v_county_1, "_key_figures_plots")
+    )
+  })
   
+  observeEvent(input$screenshot_2, {
+    shinyjs::addCssClass(selector = "body", class = "sidebar-collapse")
+    screenshot(
+      # selector = "body > div > div > section"
+      filename = paste0(input$v_county_2, "_education_indicators_plots")
+    )
+  })
   
+  observeEvent(input$screenshot_3, {
+    shinyjs::addCssClass(selector = "body", class = "sidebar-collapse")
+    screenshot(
+      # selector = "body > div > div > section"
+      filename = paste0(input$v_county_3, "_child_protection_indicators_plot")
+    )
+  })
   
+  observeEvent(input$screenshot_4, {
+    shinyjs::addCssClass(selector = "body", class = "sidebar-collapse")
+    screenshot(
+      # selector = "body > div > div > section"
+      filename = paste0(input$v_county_4, "_school_based_ratios_plots")
+    )
+  })
+  
+  observeEvent(input$screenshot_5, {
+    shinyjs::addCssClass(selector = "body", class = "sidebar-collapse")
+    screenshot(
+      # selector = "body > div > div > section"
+      filename = paste0(input$v_county_5, "_location_map")
+    )
+  })
 }
 
 # Run the application 
