@@ -23,7 +23,7 @@ pcode1_shape <-
               quiet = TRUE) %>% 
   rename_with(str_to_lower)
 
-counties <- read_csv("./data/counties_complete.csv") 
+counties <- read_csv("./data/counties.csv") 
 
 asal_county_list <- counties %>% 
   distinct(county) %>% 
@@ -85,8 +85,9 @@ make_dodged_plot_4 <- function(tbl) {
 
 
 ui <- dashboardPage(
-  dashboardHeader(title = tags$a(href="https://kenya-eie-wg.github.io/", 
-                                 tags$img(src = "https://github.com/kenya-eie-wg/kenya_county_profiles_dashboard/raw/main/logo_small.png"))), 
+  dashboardHeader(
+    title = tags$a(href="https://kenya-eie-wg.github.io/",
+                   tags$img(src = "https://github.com/kenya-eie-wg/kenya_county_profiles_dashboard/raw/main/logo_small.png"))), 
   
   dashboardSidebar(
     sidebarMenu(
@@ -542,7 +543,7 @@ server <- function(input, output) {
                                                         "Pre-primary\n/ECE"))) %>% 
       ggplot(aes(x = value, y = age_modifier, fill = county)) + 
       geom_col(width = .5) +
-      geom_text(aes(label = value), 
+      geom_text(aes(label = comma(value)), 
                 hjust = 1, 
                 colour = "white") + 
       scale_fill_manual(values = c("#2b54ad")) + 
