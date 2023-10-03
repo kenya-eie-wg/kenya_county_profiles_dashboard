@@ -901,21 +901,594 @@ out_of_school_children,secondary,total,6310,Laikipia
 Percentage of Teenage Pregnancy for girls/women aged 15-19 yrs who have ever been pregnant,total,female,0.091,Laikipia
 GBV: Percentage of girls/women who have experienced physical violence since age 15,total,female,0.345,Laikipia
 GBV: Percentage of girls/women aged 15-49 yrs who have ever experienced sexual violence,total,female,0.109,Laikipia
+Number of education Institutions (Public & Private),preprimary_ece,total,606,Embu
+Number of education Institutions (Public & Private),primary,total,519,Embu
+Number of education Institutions (Public & Private),secondary,total,209,Embu
+Gender Parity Index,preprimary_ece,total,0.95,Embu
+Gender Parity Index,primary,total,0.96,Embu
+Gender Parity Index,secondary,total,0.99,Embu
+Learner to teacher Ratio in Public Schools,preprimary_ece,total,44,Embu
+Learner to teacher Ratio in Public Schools,primary,total,26,Embu
+Learner to teacher Ratio in Public Schools,secondary,total,24,Embu
+Learner-Classroom Ratio in Public Schools,preprimary_ece,total,46,Embu
+Learner-Classroom Ratio in Public Schools,primary,total,25,Embu
+Learner-Classroom Ratio in Public Schools,secondary,total,37,Embu
+Percentage of students with no access to improved water source,NA,total,24,Embu
+Number of schools with no water source,NA,total,169,Embu
+Students' dropout/Absenteeism during 2022,preprimary_ece,female,973,Embu
+Students' dropout/Absenteeism during 2022,preprimary_ece,male,1409,Embu
+Students' dropout/Absenteeism during 2022,preprimary_ece,total,2382,Embu
+Students' dropout/Absenteeism during 2022,primary,female,0,Embu
+Students' dropout/Absenteeism during 2022,primary,male,0,Embu
+Students' dropout/Absenteeism during 2022,primary,total,0,Embu
+Students' dropout/Absenteeism during 2022,secondary,female,12,Embu
+Students' dropout/Absenteeism during 2022,secondary,male,921,Embu
+Students' dropout/Absenteeism during 2022,secondary,total,933,Embu
+Net Enrolment Rate (NER),preprimary_ece,female,132.9,Embu
+Net Enrolment Rate (NER),preprimary_ece,male,134.9,Embu
+Net Enrolment Rate (NER),preprimary_ece,total,133.9,Embu
+Net Enrolment Rate (NER),primary,female,87,Embu
+Net Enrolment Rate (NER),primary,male,87.3,Embu
+Net Enrolment Rate (NER),primary,total,87.1,Embu
+Net Enrolment Rate (NER),secondary,female,78.7,Embu
+Net Enrolment Rate (NER),secondary,male,73.3,Embu
+Net Enrolment Rate (NER),secondary,total,75.9,Embu
+Primary-to-Secondary Transition Rate,secondary,female,90.2,Embu
+Primary-to-Secondary Transition Rate,secondary,male,89.7,Embu
+Primary-to-Secondary Transition Rate,secondary,total,90,Embu
+Learner to Toilet Ratio in Public Schools,preprimary_ece,female,17,Embu
+Learner to Toilet Ratio in Public Schools,preprimary_ece,male,23,Embu
+Learner to Toilet Ratio in Public Schools,preprimary_ece,total,20,Embu
+Learner to Toilet Ratio in Public Schools,primary,female,16,Embu
+Learner to Toilet Ratio in Public Schools,primary,male,19,Embu
+Learner to Toilet Ratio in Public Schools,primary,total,17.5,Embu
+Learner to Toilet Ratio in Public Schools,secondary,female,13,Embu
+Learner to Toilet Ratio in Public Schools,secondary,male,12,Embu
+Learner to Toilet Ratio in Public Schools,secondary,total,13,Embu
+county_population,total,female,328389,Embu
+county_population,total,male,320035,Embu
+county_population,total,total,648425,Embu
+school_age_children,total,female,89600,Embu
+school_age_children,total,male,89781,Embu
+school_age_children,total,total,179381,Embu
+out_of_school_children,preprimary_ece,female,1960,Embu
+out_of_school_children,preprimary_ece,male,2310,Embu
+out_of_school_children,preprimary_ece,total,4270,Embu
+out_of_school_children,primary,female,820,Embu
+out_of_school_children,primary,male,850,Embu
+out_of_school_children,primary,total,1670,Embu
+out_of_school_children,secondary,female,1570,Embu
+out_of_school_children,secondary,male,2450,Embu
+out_of_school_children,secondary,total,4020,Embu
+Percentage of Teenage Pregnancy for girls/women aged 15-19 yrs who have ever been pregnant,total,female,0.144,Embu
+GBV: Percentage of girls/women who have experienced physical violence since age 15,total,female,0.403,Embu
+GBV: Percentage of girls/women aged 15-49 yrs who have ever experienced sexual violence,total,female,0.215,Embu
+Number of education Institutions (Public & Private),preprimary_ece,total,1242,Kajiado
+Number of education Institutions (Public & Private),primary,total,679,Kajiado
+Number of education Institutions (Public & Private),secondary,total,165,Kajiado
+Gender Parity Index,preprimary_ece,total,0.94,Kajiado
+Gender Parity Index,primary,total,0.97,Kajiado
+Gender Parity Index,secondary,total,1.03,Kajiado
+Learner to teacher Ratio in Public Schools,preprimary_ece,total,50,Kajiado
+Learner to teacher Ratio in Public Schools,primary,total,40,Kajiado
+Learner to teacher Ratio in Public Schools,secondary,total,28,Kajiado
+Learner-Classroom Ratio in Public Schools,preprimary_ece,total,50,Kajiado
+Learner-Classroom Ratio in Public Schools,primary,total,38,Kajiado
+Learner-Classroom Ratio in Public Schools,secondary,total,42,Kajiado
+Percentage of students with no access to improved water source,NA,total,32,Kajiado
+Number of schools with no water source,NA,total,228,Kajiado
+Students' dropout/Absenteeism during 2022,preprimary_ece,female,189,Kajiado
+Students' dropout/Absenteeism during 2022,preprimary_ece,male,3474,Kajiado
+Students' dropout/Absenteeism during 2022,preprimary_ece,total,3663,Kajiado
+Students' dropout/Absenteeism during 2022,primary,female,0,Kajiado
+Students' dropout/Absenteeism during 2022,primary,male,0,Kajiado
+Students' dropout/Absenteeism during 2022,primary,total,0,Kajiado
+Students' dropout/Absenteeism during 2022,secondary,female,0,Kajiado
+Students' dropout/Absenteeism during 2022,secondary,male,0,Kajiado
+Students' dropout/Absenteeism during 2022,secondary,total,0,Kajiado
+Net Enrolment Rate (NER),preprimary_ece,female,74.9,Kajiado
+Net Enrolment Rate (NER),preprimary_ece,male,77.4,Kajiado
+Net Enrolment Rate (NER),preprimary_ece,total,76.2,Kajiado
+Net Enrolment Rate (NER),primary,female,61.5,Kajiado
+Net Enrolment Rate (NER),primary,male,62.7,Kajiado
+Net Enrolment Rate (NER),primary,total,62.1,Kajiado
+Net Enrolment Rate (NER),secondary,female,39,Kajiado
+Net Enrolment Rate (NER),secondary,male,35.5,Kajiado
+Net Enrolment Rate (NER),secondary,total,37.3,Kajiado
+Primary-to-Secondary Transition Rate,secondary,female,84,Kajiado
+Primary-to-Secondary Transition Rate,secondary,male,84.6,Kajiado
+Primary-to-Secondary Transition Rate,secondary,total,84.3,Kajiado
+Learner to Toilet Ratio in Public Schools,preprimary_ece,female,26,Kajiado
+Learner to Toilet Ratio in Public Schools,preprimary_ece,male,35,Kajiado
+Learner to Toilet Ratio in Public Schools,preprimary_ece,total,31,Kajiado
+Learner to Toilet Ratio in Public Schools,primary,female,37,Kajiado
+Learner to Toilet Ratio in Public Schools,primary,male,45,Kajiado
+Learner to Toilet Ratio in Public Schools,primary,total,41,Kajiado
+Learner to Toilet Ratio in Public Schools,secondary,female,20,Kajiado
+Learner to Toilet Ratio in Public Schools,secondary,male,25,Kajiado
+Learner to Toilet Ratio in Public Schools,secondary,total,23,Kajiado
+county_population,total,female,637480,Kajiado
+county_population,total,male,630782,Kajiado
+county_population,total,total,1268261,Kajiado
+school_age_children,total,female,204304,Kajiado
+school_age_children,total,male,200521,Kajiado
+school_age_children,total,total,404825,Kajiado
+out_of_school_children,preprimary_ece,female,10140,Kajiado
+out_of_school_children,preprimary_ece,male,9240,Kajiado
+out_of_school_children,preprimary_ece,total,19380,Kajiado
+out_of_school_children,primary,female,9950,Kajiado
+out_of_school_children,primary,male,11170,Kajiado
+out_of_school_children,primary,total,21120,Kajiado
+out_of_school_children,secondary,female,5660,Kajiado
+out_of_school_children,secondary,male,6180,Kajiado
+out_of_school_children,secondary,total,11840,Kajiado
+Percentage of Teenage Pregnancy for girls/women aged 15-19 yrs who have ever been pregnant,total,female,0.218,Kajiado
+GBV: Percentage of girls/women who have experienced physical violence since age 15,total,female,0.361,Kajiado
+GBV: Percentage of girls/women aged 15-49 yrs who have ever experienced sexual violence,total,female,0.169,Kajiado
+Number of education Institutions (Public & Private),preprimary_ece,total,1562,Kilifi
+Number of education Institutions (Public & Private),primary,total,795,Kilifi
+Number of education Institutions (Public & Private),secondary,total,200,Kilifi
+Gender Parity Index,preprimary_ece,total,0.98,Kilifi
+Gender Parity Index,primary,total,0.97,Kilifi
+Gender Parity Index,secondary,total,0.92,Kilifi
+Learner to teacher Ratio in Public Schools,preprimary_ece,total,52,Kilifi
+Learner to teacher Ratio in Public Schools,primary,total,57,Kilifi
+Learner to teacher Ratio in Public Schools,secondary,total,40,Kilifi
+Learner-Classroom Ratio in Public Schools,preprimary_ece,total,54,Kilifi
+Learner-Classroom Ratio in Public Schools,primary,total,51,Kilifi
+Learner-Classroom Ratio in Public Schools,secondary,total,42,Kilifi
+Percentage of students with no access to improved water source,NA,total,39,Kilifi
+Number of schools with no water source,NA,total,323,Kilifi
+Students' dropout/Absenteeism during 2022,preprimary_ece,female,8687,Kilifi
+Students' dropout/Absenteeism during 2022,preprimary_ece,male,13977,Kilifi
+Students' dropout/Absenteeism during 2022,preprimary_ece,total,22664,Kilifi
+Students' dropout/Absenteeism during 2022,primary,female,1150,Kilifi
+Students' dropout/Absenteeism during 2022,primary,male,2063,Kilifi
+Students' dropout/Absenteeism during 2022,primary,total,3213,Kilifi
+Students' dropout/Absenteeism during 2022,secondary,female,0,Kilifi
+Students' dropout/Absenteeism during 2022,secondary,male,0,Kilifi
+Students' dropout/Absenteeism during 2022,secondary,total,0,Kilifi
+Net Enrolment Rate (NER),preprimary_ece,female,110.3,Kilifi
+Net Enrolment Rate (NER),preprimary_ece,male,110.2,Kilifi
+Net Enrolment Rate (NER),preprimary_ece,total,110.3,Kilifi
+Net Enrolment Rate (NER),primary,female,78.5,Kilifi
+Net Enrolment Rate (NER),primary,male,79.2,Kilifi
+Net Enrolment Rate (NER),primary,total,78.8,Kilifi
+Net Enrolment Rate (NER),secondary,female,32.9,Kilifi
+Net Enrolment Rate (NER),secondary,male,28.9,Kilifi
+Net Enrolment Rate (NER),secondary,total,30.9,Kilifi
+Primary-to-Secondary Transition Rate,secondary,female,80.9,Kilifi
+Primary-to-Secondary Transition Rate,secondary,male,81.9,Kilifi
+Primary-to-Secondary Transition Rate,secondary,total,81.4,Kilifi
+Learner to Toilet Ratio in Public Schools,preprimary_ece,female,53,Kilifi
+Learner to Toilet Ratio in Public Schools,preprimary_ece,male,59,Kilifi
+Learner to Toilet Ratio in Public Schools,preprimary_ece,total,56,Kilifi
+Learner to Toilet Ratio in Public Schools,primary,female,48,Kilifi
+Learner to Toilet Ratio in Public Schools,primary,male,42,Kilifi
+Learner to Toilet Ratio in Public Schools,primary,total,45,Kilifi
+Learner to Toilet Ratio in Public Schools,secondary,female,30,Kilifi
+Learner to Toilet Ratio in Public Schools,secondary,male,33,Kilifi
+Learner to Toilet Ratio in Public Schools,secondary,total,32,Kilifi
+county_population,total,female,793343,Kilifi
+county_population,total,male,783992,Kilifi
+county_population,total,total,1577335,Kilifi
+school_age_children,total,female,214024,Kilifi
+school_age_children,total,male,243661,Kilifi
+school_age_children,total,total,457685,Kilifi
+out_of_school_children,preprimary_ece,female,10940,Kilifi
+out_of_school_children,preprimary_ece,male,11920,Kilifi
+out_of_school_children,preprimary_ece,total,22860,Kilifi
+out_of_school_children,primary,female,7910,Kilifi
+out_of_school_children,primary,male,8400,Kilifi
+out_of_school_children,primary,total,16310,Kilifi
+out_of_school_children,secondary,female,6190,Kilifi
+out_of_school_children,secondary,male,5850,Kilifi
+out_of_school_children,secondary,total,12040,Kilifi
+Percentage of Teenage Pregnancy for girls/women aged 15-19 yrs who have ever been pregnant,total,female,0.125,Kilifi
+GBV: Percentage of girls/women who have experienced physical violence since age 15,total,female,0.201,Kilifi
+GBV: Percentage of girls/women aged 15-49 yrs who have ever experienced sexual violence,total,female,0.122,Kilifi
+Number of education Institutions (Public & Private),preprimary_ece,total,1175,Kwale
+Number of education Institutions (Public & Private),primary,total,559,Kwale
+Number of education Institutions (Public & Private),secondary,total,101,Kwale
+Gender Parity Index,preprimary_ece,total,0.97,Kwale
+Gender Parity Index,primary,total,0.97,Kwale
+Gender Parity Index,secondary,total,1.07,Kwale
+Learner to teacher Ratio in Public Schools,preprimary_ece,total,66,Kwale
+Learner to teacher Ratio in Public Schools,primary,total,53,Kwale
+Learner to teacher Ratio in Public Schools,secondary,total,36,Kwale
+Learner-Classroom Ratio in Public Schools,preprimary_ece,total,64,Kwale
+Learner-Classroom Ratio in Public Schools,primary,total,43,Kwale
+Learner-Classroom Ratio in Public Schools,secondary,total,42,Kwale
+Percentage of students with no access to improved water source,NA,total,47,Kwale
+Number of schools with no water source,NA,total,264,Kwale
+Students' dropout/Absenteeism during 2022,preprimary_ece,female,13,Kwale
+Students' dropout/Absenteeism during 2022,preprimary_ece,male,26,Kwale
+Students' dropout/Absenteeism during 2022,preprimary_ece,total,39,Kwale
+Students' dropout/Absenteeism during 2022,primary,female,0,Kwale
+Students' dropout/Absenteeism during 2022,primary,male,270,Kwale
+Students' dropout/Absenteeism during 2022,primary,total,270,Kwale
+Students' dropout/Absenteeism during 2022,secondary,female,1123,Kwale
+Students' dropout/Absenteeism during 2022,secondary,male,1251,Kwale
+Students' dropout/Absenteeism during 2022,secondary,total,2374,Kwale
+Net Enrolment Rate (NER),preprimary_ece,female,104.8,Kwale
+Net Enrolment Rate (NER),preprimary_ece,male,103.9,Kwale
+Net Enrolment Rate (NER),preprimary_ece,total,104.4,Kwale
+Net Enrolment Rate (NER),primary,female,78.5,Kwale
+Net Enrolment Rate (NER),primary,male,79.6,Kwale
+Net Enrolment Rate (NER),primary,total,79,Kwale
+Net Enrolment Rate (NER),secondary,female,31.6,Kwale
+Net Enrolment Rate (NER),secondary,male,21.6,Kwale
+Net Enrolment Rate (NER),secondary,total,26.5,Kwale
+Primary-to-Secondary Transition Rate,secondary,female,79.2,Kwale
+Primary-to-Secondary Transition Rate,secondary,male,79.5,Kwale
+Primary-to-Secondary Transition Rate,secondary,total,79.4,Kwale
+Learner to Toilet Ratio in Public Schools,preprimary_ece,female,46,Kwale
+Learner to Toilet Ratio in Public Schools,preprimary_ece,male,57,Kwale
+Learner to Toilet Ratio in Public Schools,preprimary_ece,total,52,Kwale
+Learner to Toilet Ratio in Public Schools,primary,female,39,Kwale
+Learner to Toilet Ratio in Public Schools,primary,male,48,Kwale
+Learner to Toilet Ratio in Public Schools,primary,total,44,Kwale
+Learner to Toilet Ratio in Public Schools,secondary,female,20,Kwale
+Learner to Toilet Ratio in Public Schools,secondary,male,27,Kwale
+Learner to Toilet Ratio in Public Schools,secondary,total,24,Kwale
+county_population,total,female,476052,Kwale
+county_population,total,male,468412,Kwale
+county_population,total,total,944464,Kwale
+school_age_children,total,female,180763,Kwale
+school_age_children,total,male,176496,Kwale
+school_age_children,total,total,357259,Kwale
+out_of_school_children,preprimary_ece,female,10720,Kwale
+out_of_school_children,preprimary_ece,male,11480,Kwale
+out_of_school_children,preprimary_ece,total,22200,Kwale
+out_of_school_children,primary,female,9110,Kwale
+out_of_school_children,primary,male,9630,Kwale
+out_of_school_children,primary,total,18740,Kwale
+out_of_school_children,secondary,female,6560,Kwale
+out_of_school_children,secondary,male,6270,Kwale
+out_of_school_children,secondary,total,12830,Kwale
+Percentage of Teenage Pregnancy for girls/women aged 15-19 yrs who have ever been pregnant,total,female,0.148,Kwale
+GBV: Percentage of girls/women who have experienced physical violence since age 15,total,female,0.131,Kwale
+GBV: Percentage of girls/women aged 15-49 yrs who have ever experienced sexual violence,total,female,0.043,Kwale
+Number of education Institutions (Public & Private),preprimary_ece,total,191,Lamu
+Number of education Institutions (Public & Private),primary,total,133,Lamu
+Number of education Institutions (Public & Private),secondary,total,31,Lamu
+Gender Parity Index,preprimary_ece,total,0.93,Lamu
+Gender Parity Index,primary,total,0.96,Lamu
+Gender Parity Index,secondary,total,0.87,Lamu
+Learner to teacher Ratio in Public Schools,preprimary_ece,total,43,Lamu
+Learner to teacher Ratio in Public Schools,primary,total,29,Lamu
+Learner to teacher Ratio in Public Schools,secondary,total,21,Lamu
+Learner-Classroom Ratio in Public Schools,preprimary_ece,total,50,Lamu
+Learner-Classroom Ratio in Public Schools,primary,total,29,Lamu
+Learner-Classroom Ratio in Public Schools,secondary,total,30,Lamu
+Percentage of students with no access to improved water source,NA,total,55,Lamu
+Number of schools with no water source,NA,total,89,Lamu
+Students' dropout/Absenteeism during 2022,preprimary_ece,female,1598,Lamu
+Students' dropout/Absenteeism during 2022,preprimary_ece,male,2972,Lamu
+Students' dropout/Absenteeism during 2022,preprimary_ece,total,4570,Lamu
+Students' dropout/Absenteeism during 2022,primary,female,716,Lamu
+Students' dropout/Absenteeism during 2022,primary,male,1832,Lamu
+Students' dropout/Absenteeism during 2022,primary,total,2548,Lamu
+Students' dropout/Absenteeism during 2022,secondary,female,295,Lamu
+Students' dropout/Absenteeism during 2022,secondary,male,246,Lamu
+Students' dropout/Absenteeism during 2022,secondary,total,541,Lamu
+Net Enrolment Rate (NER),preprimary_ece,female,109.7,Lamu
+Net Enrolment Rate (NER),preprimary_ece,male,109.4,Lamu
+Net Enrolment Rate (NER),preprimary_ece,total,109.5,Lamu
+Net Enrolment Rate (NER),primary,female,75.8,Lamu
+Net Enrolment Rate (NER),primary,male,91.4,Lamu
+Net Enrolment Rate (NER),primary,total,83.7,Lamu
+Net Enrolment Rate (NER),secondary,female,37.2,Lamu
+Net Enrolment Rate (NER),secondary,male,33.8,Lamu
+Net Enrolment Rate (NER),secondary,total,35.4,Lamu
+Primary-to-Secondary Transition Rate,secondary,female,81.8,Lamu
+Primary-to-Secondary Transition Rate,secondary,male,82.7,Lamu
+Primary-to-Secondary Transition Rate,secondary,total,82.2,Lamu
+Learner to Toilet Ratio in Public Schools,preprimary_ece,female,56,Lamu
+Learner to Toilet Ratio in Public Schools,preprimary_ece,male,64,Lamu
+Learner to Toilet Ratio in Public Schools,preprimary_ece,total,60,Lamu
+Learner to Toilet Ratio in Public Schools,primary,female,39,Lamu
+Learner to Toilet Ratio in Public Schools,primary,male,40,Lamu
+Learner to Toilet Ratio in Public Schools,primary,total,40,Lamu
+Learner to Toilet Ratio in Public Schools,secondary,female,22,Lamu
+Learner to Toilet Ratio in Public Schools,secondary,male,19,Lamu
+Learner to Toilet Ratio in Public Schools,secondary,total,21,Lamu
+county_population,total,female,83880,Lamu
+county_population,total,male,83452,Lamu
+county_population,total,total,167332,Lamu
+school_age_children,total,female,29542,Lamu
+school_age_children,total,male,29135,Lamu
+school_age_children,total,total,58677,Lamu
+out_of_school_children,preprimary_ece,female,1220,Lamu
+out_of_school_children,preprimary_ece,male,1520,Lamu
+out_of_school_children,preprimary_ece,total,2740,Lamu
+out_of_school_children,primary,female,1280,Lamu
+out_of_school_children,primary,male,1360,Lamu
+out_of_school_children,primary,total,2640,Lamu
+out_of_school_children,secondary,female,850,Lamu
+out_of_school_children,secondary,male,890,Lamu
+out_of_school_children,secondary,total,1740,Lamu
+Percentage of Teenage Pregnancy for girls/women aged 15-19 yrs who have ever been pregnant,total,female,0.137,Lamu
+GBV: Percentage of girls/women who have experienced physical violence since age 15,total,female,0.339,Lamu
+GBV: Percentage of girls/women aged 15-49 yrs who have ever experienced sexual violence,total,female,0.145,Lamu
+Number of education Institutions (Public & Private),preprimary_ece,total,1199,Narok
+Number of education Institutions (Public & Private),primary,total,836,Narok
+Number of education Institutions (Public & Private),secondary,total,177,Narok
+Gender Parity Index,preprimary_ece,total,0.98,Narok
+Gender Parity Index,primary,total,0.95,Narok
+Gender Parity Index,secondary,total,0.82,Narok
+Learner to teacher Ratio in Public Schools,preprimary_ece,total,63,Narok
+Learner to teacher Ratio in Public Schools,primary,total,49,Narok
+Learner to teacher Ratio in Public Schools,secondary,total,32,Narok
+Learner-Classroom Ratio in Public Schools,preprimary_ece,total,57,Narok
+Learner-Classroom Ratio in Public Schools,primary,total,44,Narok
+Learner-Classroom Ratio in Public Schools,secondary,total,40,Narok
+Percentage of students with no access to improved water source,NA,total,74,Narok
+Number of schools with no water source,NA,total,656,Narok
+Students' dropout/Absenteeism during 2022,preprimary_ece,female,964,Narok
+Students' dropout/Absenteeism during 2022,preprimary_ece,male,975,Narok
+Students' dropout/Absenteeism during 2022,preprimary_ece,total,1939,Narok
+Students' dropout/Absenteeism during 2022,primary,female,2598,Narok
+Students' dropout/Absenteeism during 2022,primary,male,0,Narok
+Students' dropout/Absenteeism during 2022,primary,total,2598,Narok
+Students' dropout/Absenteeism during 2022,secondary,female,0,Narok
+Students' dropout/Absenteeism during 2022,secondary,male,47,Narok
+Students' dropout/Absenteeism during 2022,secondary,total,47,Narok
+Net Enrolment Rate (NER),preprimary_ece,female,98.3,Narok
+Net Enrolment Rate (NER),preprimary_ece,male,97.7,Narok
+Net Enrolment Rate (NER),preprimary_ece,total,98,Narok
+Net Enrolment Rate (NER),primary,female,71,Narok
+Net Enrolment Rate (NER),primary,male,72,Narok
+Net Enrolment Rate (NER),primary,total,71.5,Narok
+Net Enrolment Rate (NER),secondary,female,33.3,Narok
+Net Enrolment Rate (NER),secondary,male,33.7,Narok
+Net Enrolment Rate (NER),secondary,total,33.5,Narok
+Primary-to-Secondary Transition Rate,secondary,female,80,Narok
+Primary-to-Secondary Transition Rate,secondary,male,82.2,Narok
+Primary-to-Secondary Transition Rate,secondary,total,81.1,Narok
+Learner to Toilet Ratio in Public Schools,preprimary_ece,female,31,Narok
+Learner to Toilet Ratio in Public Schools,preprimary_ece,male,41,Narok
+Learner to Toilet Ratio in Public Schools,preprimary_ece,total,36,Narok
+Learner to Toilet Ratio in Public Schools,primary,female,40,Narok
+Learner to Toilet Ratio in Public Schools,primary,male,47,Narok
+Learner to Toilet Ratio in Public Schools,primary,total,43.5,Narok
+Learner to Toilet Ratio in Public Schools,secondary,female,19,Narok
+Learner to Toilet Ratio in Public Schools,secondary,male,22,Narok
+Learner to Toilet Ratio in Public Schools,secondary,total,21,Narok
+county_population,total,female,650050,Narok
+county_population,total,male,634154,Narok
+county_population,total,total,1284204,Narok
+school_age_children,total,female,258008,Narok
+school_age_children,total,male,254675,Narok
+school_age_children,total,total,512683,Narok
+out_of_school_children,preprimary_ece,female,16630,Narok
+out_of_school_children,preprimary_ece,male,18450,Narok
+out_of_school_children,preprimary_ece,total,35080,Narok
+out_of_school_children,primary,female,16090,Narok
+out_of_school_children,primary,male,16590,Narok
+out_of_school_children,primary,total,32680,Narok
+out_of_school_children,secondary,female,7040,Narok
+out_of_school_children,secondary,male,8220,Narok
+out_of_school_children,secondary,total,15260,Narok
+Percentage of Teenage Pregnancy for girls/women aged 15-19 yrs who have ever been pregnant,total,female,0.281,Narok
+GBV: Percentage of girls/women who have experienced physical violence since age 15,total,female,0.405,Narok
+GBV: Percentage of girls/women aged 15-49 yrs who have ever experienced sexual violence,total,female,0.175,Narok
+Number of education Institutions (Public & Private),preprimary_ece,total,607,Nyeri
+Number of education Institutions (Public & Private),primary,total,514,Nyeri
+Number of education Institutions (Public & Private),secondary,total,238,Nyeri
+Gender Parity Index,preprimary_ece,total,0.96,Nyeri
+Gender Parity Index,primary,total,0.96,Nyeri
+Gender Parity Index,secondary,total,1,Nyeri
+Learner to teacher Ratio in Public Schools,preprimary_ece,total,40,Nyeri
+Learner to teacher Ratio in Public Schools,primary,total,27,Nyeri
+Learner to teacher Ratio in Public Schools,secondary,total,24,Nyeri
+Learner-Classroom Ratio in Public Schools,preprimary_ece,total,34,Nyeri
+Learner-Classroom Ratio in Public Schools,primary,total,22,Nyeri
+Learner-Classroom Ratio in Public Schools,secondary,total,39,Nyeri
+Percentage of students with no access to improved water source,NA,total,11,Nyeri
+Number of schools with no water source,NA,total,78,Nyeri
+Students' dropout/Absenteeism during 2022,preprimary_ece,female,1965,Nyeri
+Students' dropout/Absenteeism during 2022,preprimary_ece,male,1940,Nyeri
+Students' dropout/Absenteeism during 2022,preprimary_ece,total,3905,Nyeri
+Students' dropout/Absenteeism during 2022,primary,female,145,Nyeri
+Students' dropout/Absenteeism during 2022,primary,male,54,Nyeri
+Students' dropout/Absenteeism during 2022,primary,total,199,Nyeri
+Students' dropout/Absenteeism during 2022,secondary,female,675,Nyeri
+Students' dropout/Absenteeism during 2022,secondary,male,536,Nyeri
+Students' dropout/Absenteeism during 2022,secondary,total,1211,Nyeri
+Net Enrolment Rate (NER),preprimary_ece,female,126.7,Nyeri
+Net Enrolment Rate (NER),preprimary_ece,male,128,Nyeri
+Net Enrolment Rate (NER),preprimary_ece,total,127.3,Nyeri
+Net Enrolment Rate (NER),primary,female,88,Nyeri
+Net Enrolment Rate (NER),primary,male,88.5,Nyeri
+Net Enrolment Rate (NER),primary,total,88.3,Nyeri
+Net Enrolment Rate (NER),secondary,female,96.2,Nyeri
+Net Enrolment Rate (NER),secondary,male,87.4,Nyeri
+Net Enrolment Rate (NER),secondary,total,91.6,Nyeri
+Primary-to-Secondary Transition Rate,secondary,female,93.9,Nyeri
+Primary-to-Secondary Transition Rate,secondary,male,93.6,Nyeri
+Primary-to-Secondary Transition Rate,secondary,total,93.7,Nyeri
+Learner to Toilet Ratio in Public Schools,preprimary_ece,female,17,Nyeri
+Learner to Toilet Ratio in Public Schools,preprimary_ece,male,20,Nyeri
+Learner to Toilet Ratio in Public Schools,preprimary_ece,total,19,Nyeri
+Learner to Toilet Ratio in Public Schools,primary,female,13,Nyeri
+Learner to Toilet Ratio in Public Schools,primary,male,17,Nyeri
+Learner to Toilet Ratio in Public Schools,primary,total,15,Nyeri
+Learner to Toilet Ratio in Public Schools,secondary,female,14,Nyeri
+Learner to Toilet Ratio in Public Schools,secondary,male,12,Nyeri
+Learner to Toilet Ratio in Public Schools,secondary,total,13,Nyeri
+county_population,total,female,426118,Nyeri
+county_population,total,male,409290,Nyeri
+county_population,total,total,835408,Nyeri
+school_age_children,total,female,108313,Nyeri
+school_age_children,total,male,106539,Nyeri
+school_age_children,total,total,214852,Nyeri
+out_of_school_children,preprimary_ece,female,1420,Nyeri
+out_of_school_children,preprimary_ece,male,1170,Nyeri
+out_of_school_children,preprimary_ece,total,2590,Nyeri
+out_of_school_children,primary,female,750,Nyeri
+out_of_school_children,primary,male,680,Nyeri
+out_of_school_children,primary,total,1430,Nyeri
+out_of_school_children,secondary,female,1120,Nyeri
+out_of_school_children,secondary,male,1500,Nyeri
+out_of_school_children,secondary,total,2620,Nyeri
+Percentage of Teenage Pregnancy for girls/women aged 15-19 yrs who have ever been pregnant,total,female,0.045,Nyeri
+GBV: Percentage of girls/women who have experienced physical violence since age 15,total,female,0.369,Nyeri
+GBV: Percentage of girls/women aged 15-49 yrs who have ever experienced sexual violence,total,female,0.151,Nyeri
+Number of education Institutions (Public & Private),preprimary_ece,total,425,Taita Taveta
+Number of education Institutions (Public & Private),primary,total,278,Taita Taveta
+Number of education Institutions (Public & Private),secondary,total,94,Taita Taveta
+Gender Parity Index,preprimary_ece,total,1.01,Taita Taveta
+Gender Parity Index,primary,total,0.96,Taita Taveta
+Gender Parity Index,secondary,total,1.01,Taita Taveta
+Learner to teacher Ratio in Public Schools,preprimary_ece,total,24,Taita Taveta
+Learner to teacher Ratio in Public Schools,primary,total,30,Taita Taveta
+Learner to teacher Ratio in Public Schools,secondary,total,28,Taita Taveta
+Learner-Classroom Ratio in Public Schools,preprimary_ece,total,30,Taita Taveta
+Learner-Classroom Ratio in Public Schools,primary,total,26,Taita Taveta
+Learner-Classroom Ratio in Public Schools,secondary,total,38,Taita Taveta
+Percentage of students with no access to improved water source,NA,total,28,Taita Taveta
+Number of schools with no water source,NA,total,105,Taita Taveta
+Students' dropout/Absenteeism during 2022,preprimary_ece,female,429,Taita Taveta
+Students' dropout/Absenteeism during 2022,preprimary_ece,male,439,Taita Taveta
+Students' dropout/Absenteeism during 2022,preprimary_ece,total,868,Taita Taveta
+Students' dropout/Absenteeism during 2022,primary,female,189,Taita Taveta
+Students' dropout/Absenteeism during 2022,primary,male,898,Taita Taveta
+Students' dropout/Absenteeism during 2022,primary,total,1087,Taita Taveta
+Students' dropout/Absenteeism during 2022,secondary,female,586,Taita Taveta
+Students' dropout/Absenteeism during 2022,secondary,male,1344,Taita Taveta
+Students' dropout/Absenteeism during 2022,secondary,total,1930,Taita Taveta
+Net Enrolment Rate (NER),preprimary_ece,female,135.9,Taita Taveta
+Net Enrolment Rate (NER),preprimary_ece,male,131.6,Taita Taveta
+Net Enrolment Rate (NER),preprimary_ece,total,133.7,Taita Taveta
+Net Enrolment Rate (NER),primary,female,87.8,Taita Taveta
+Net Enrolment Rate (NER),primary,male,89.5,Taita Taveta
+Net Enrolment Rate (NER),primary,total,88.7,Taita Taveta
+Net Enrolment Rate (NER),secondary,female,71.9,Taita Taveta
+Net Enrolment Rate (NER),secondary,male,64.4,Taita Taveta
+Net Enrolment Rate (NER),secondary,total,68,Taita Taveta
+Primary-to-Secondary Transition Rate,secondary,female,83.4,Taita Taveta
+Primary-to-Secondary Transition Rate,secondary,male,84.6,Taita Taveta
+Primary-to-Secondary Transition Rate,secondary,total,84,Taita Taveta
+Learner to Toilet Ratio in Public Schools,preprimary_ece,female,24,Taita Taveta
+Learner to Toilet Ratio in Public Schools,preprimary_ece,male,24,Taita Taveta
+Learner to Toilet Ratio in Public Schools,preprimary_ece,total,24,Taita Taveta
+Learner to Toilet Ratio in Public Schools,primary,female,22,Taita Taveta
+Learner to Toilet Ratio in Public Schools,primary,male,28,Taita Taveta
+Learner to Toilet Ratio in Public Schools,primary,total,25,Taita Taveta
+Learner to Toilet Ratio in Public Schools,secondary,female,22,Taita Taveta
+Learner to Toilet Ratio in Public Schools,secondary,male,22,Taita Taveta
+Learner to Toilet Ratio in Public Schools,secondary,total,22,Taita Taveta
+county_population,total,female,184658,Taita Taveta
+county_population,total,male,179331,Taita Taveta
+county_population,total,total,363990,Taita Taveta
+school_age_children,total,female,53992,Taita Taveta
+school_age_children,total,male,52176,Taita Taveta
+school_age_children,total,total,106168,Taita Taveta
+out_of_school_children,preprimary_ece,female,870,Taita Taveta
+out_of_school_children,preprimary_ece,male,1140,Taita Taveta
+out_of_school_children,preprimary_ece,total,2010,Taita Taveta
+out_of_school_children,primary,female,590,Taita Taveta
+out_of_school_children,primary,male,770,Taita Taveta
+out_of_school_children,primary,total,1360,Taita Taveta
+out_of_school_children,secondary,female,1490,Taita Taveta
+out_of_school_children,secondary,male,1500,Taita Taveta
+out_of_school_children,secondary,total,2990,Taita Taveta
+Percentage of Teenage Pregnancy for girls/women aged 15-19 yrs who have ever been pregnant,total,female,0.184,Taita Taveta
+GBV: Percentage of girls/women who have experienced physical violence since age 15,total,female,0.295,Taita Taveta
+GBV: Percentage of girls/women aged 15-49 yrs who have ever experienced sexual violence,total,female,0.14,Taita Taveta
+Number of education Institutions (Public & Private),preprimary_ece,total,885,West Pokot
+Number of education Institutions (Public & Private),primary,total,714,West Pokot
+Number of education Institutions (Public & Private),secondary,total,163,West Pokot
+Gender Parity Index,preprimary_ece,total,1,West Pokot
+Gender Parity Index,primary,total,0.98,West Pokot
+Gender Parity Index,secondary,total,0.9,West Pokot
+Learner to teacher Ratio in Public Schools,preprimary_ece,total,67,West Pokot
+Learner to teacher Ratio in Public Schools,primary,total,54,West Pokot
+Learner to teacher Ratio in Public Schools,secondary,total,29,West Pokot
+Learner-Classroom Ratio in Public Schools,preprimary_ece,total,61,West Pokot
+Learner-Classroom Ratio in Public Schools,primary,total,38,West Pokot
+Learner-Classroom Ratio in Public Schools,secondary,total,37,West Pokot
+Percentage of students with no access to improved water source,NA,total,46,West Pokot
+Number of schools with no water source,NA,total,401,West Pokot
+Students' dropout/Absenteeism during 2022,preprimary_ece,female,14815,West Pokot
+Students' dropout/Absenteeism during 2022,preprimary_ece,male,12465,West Pokot
+Students' dropout/Absenteeism during 2022,preprimary_ece,total,27280,West Pokot
+Students' dropout/Absenteeism during 2022,primary,female,16431,West Pokot
+Students' dropout/Absenteeism during 2022,primary,male,15610,West Pokot
+Students' dropout/Absenteeism during 2022,primary,total,32041,West Pokot
+Students' dropout/Absenteeism during 2022,secondary,female,1423,West Pokot
+Students' dropout/Absenteeism during 2022,secondary,male,2990,West Pokot
+Students' dropout/Absenteeism during 2022,secondary,total,4413,West Pokot
+Net Enrolment Rate (NER),preprimary_ece,female,147.5,West Pokot
+Net Enrolment Rate (NER),preprimary_ece,male,143.2,West Pokot
+Net Enrolment Rate (NER),preprimary_ece,total,145.3,West Pokot
+Net Enrolment Rate (NER),primary,female,86.6,West Pokot
+Net Enrolment Rate (NER),primary,male,86.1,West Pokot
+Net Enrolment Rate (NER),primary,total,86.4,West Pokot
+Net Enrolment Rate (NER),secondary,female,50.9,West Pokot
+Net Enrolment Rate (NER),secondary,male,53.6,West Pokot
+Net Enrolment Rate (NER),secondary,total,52.3,West Pokot
+Primary-to-Secondary Transition Rate,secondary,female,80.1,West Pokot
+Primary-to-Secondary Transition Rate,secondary,male,85.1,West Pokot
+Primary-to-Secondary Transition Rate,secondary,total,82,West Pokot
+Learner to Toilet Ratio in Public Schools,preprimary_ece,female,54,West Pokot
+Learner to Toilet Ratio in Public Schools,preprimary_ece,male,58,West Pokot
+Learner to Toilet Ratio in Public Schools,preprimary_ece,total,56,West Pokot
+Learner to Toilet Ratio in Public Schools,primary,female,45,West Pokot
+Learner to Toilet Ratio in Public Schools,primary,male,50,West Pokot
+Learner to Toilet Ratio in Public Schools,primary,total,48,West Pokot
+Learner to Toilet Ratio in Public Schools,secondary,female,18,West Pokot
+Learner to Toilet Ratio in Public Schools,secondary,male,23,West Pokot
+Learner to Toilet Ratio in Public Schools,secondary,total,21,West Pokot
+county_population,total,female,342979,West Pokot
+county_population,total,male,333348,West Pokot
+county_population,total,total,676326,West Pokot
+school_age_children,total,female,132043,West Pokot
+school_age_children,total,male,129652,West Pokot
+school_age_children,total,total,261695,West Pokot
+out_of_school_children,preprimary_ece,female,11290,West Pokot
+out_of_school_children,preprimary_ece,male,12690,West Pokot
+out_of_school_children,preprimary_ece,total,23980,West Pokot
+out_of_school_children,primary,female,21330,West Pokot
+out_of_school_children,primary,male,21440,West Pokot
+out_of_school_children,primary,total,42770,West Pokot
+out_of_school_children,secondary,female,5890,West Pokot
+out_of_school_children,secondary,male,7430,West Pokot
+out_of_school_children,secondary,total,13320,West Pokot
+Percentage of Teenage Pregnancy for girls/women aged 15-19 yrs who have ever been pregnant,total,female,0.363,West Pokot
+GBV: Percentage of girls/women who have experienced physical violence since age 15,total,female,0.271,West Pokot
+GBV: Percentage of girls/women aged 15-49 yrs who have ever experienced sexual violence,total,female,0.075,West Pokot
 learner_toilet_ratio_recalculated,preprimary_ece,total,34.380221957336794,Baringo
 learner_toilet_ratio_recalculated,primary,total,29.366164003415467,Baringo
 learner_toilet_ratio_recalculated,secondary,total,18.37000483132725,Baringo
+learner_toilet_ratio_recalculated,preprimary_ece,total,19.65263806463483,Embu
+learner_toilet_ratio_recalculated,primary,total,17.405123643018026,Embu
+learner_toilet_ratio_recalculated,secondary,total,12.466244084755004,Embu
 learner_toilet_ratio_recalculated,preprimary_ece,total,62.17058087035702,Garissa
 learner_toilet_ratio_recalculated,primary,total,41.97569342760323,Garissa
 learner_toilet_ratio_recalculated,secondary,total,24.205510696841937,Garissa
 learner_toilet_ratio_recalculated,preprimary_ece,total,77.02715421851526,Isiolo
 learner_toilet_ratio_recalculated,primary,total,30,Isiolo
 learner_toilet_ratio_recalculated,secondary,total,18.485987649086017,Isiolo
+learner_toilet_ratio_recalculated,preprimary_ece,total,30.061770821932804,Kajiado
+learner_toilet_ratio_recalculated,primary,total,40.674190806427674,Kajiado
+learner_toilet_ratio_recalculated,secondary,total,22.293295427623782,Kajiado
+learner_toilet_ratio_recalculated,preprimary_ece,total,55.86629688155051,Kilifi
+learner_toilet_ratio_recalculated,primary,total,44.752661077879715,Kilifi
+learner_toilet_ratio_recalculated,secondary,total,31.489839304331618,Kilifi
 learner_toilet_ratio_recalculated,preprimary_ece,total,17.894414264595913,Kitui
 learner_toilet_ratio_recalculated,primary,total,16.492389759786057,Kitui
 learner_toilet_ratio_recalculated,secondary,total,15.89786654507349,Kitui
+learner_toilet_ratio_recalculated,preprimary_ece,total,50.99088596519654,Kwale
+learner_toilet_ratio_recalculated,primary,total,43.12337597685151,Kwale
+learner_toilet_ratio_recalculated,secondary,total,22.896662458116353,Kwale
 learner_toilet_ratio_recalculated,preprimary_ece,total,34.935362928661625,Laikipia
 learner_toilet_ratio_recalculated,primary,total,23.310729954942513,Laikipia
 learner_toilet_ratio_recalculated,secondary,total,15.771101209420753,Laikipia
+learner_toilet_ratio_recalculated,preprimary_ece,total,59.891914625170855,Lamu
+learner_toilet_ratio_recalculated,primary,total,39.50605471773934,Lamu
+learner_toilet_ratio_recalculated,secondary,total,20.261194029850746,Lamu
 learner_toilet_ratio_recalculated,preprimary_ece,total,14.957563792507774,Makueni
 learner_toilet_ratio_recalculated,primary,total,22.44572356155689,Makueni
 learner_toilet_ratio_recalculated,secondary,total,17.353292827448694,Makueni
@@ -928,12 +1501,21 @@ learner_toilet_ratio_recalculated,secondary,total,20.420921622686095,Marsabit
 learner_toilet_ratio_recalculated,preprimary_ece,total,28.332305833604497,Meru
 learner_toilet_ratio_recalculated,primary,total,21.84923604537987,Meru
 learner_toilet_ratio_recalculated,secondary,total,16.302898281220944,Meru
+learner_toilet_ratio_recalculated,preprimary_ece,total,35.34759241524893,Narok
+learner_toilet_ratio_recalculated,primary,total,43.30438396304088,Narok
+learner_toilet_ratio_recalculated,secondary,total,20.53687995259373,Narok
 learner_toilet_ratio_recalculated,preprimary_ece,total,36.810786174461334,National
 learner_toilet_ratio_recalculated,primary,total,31.46104299072659,National
 learner_toilet_ratio_recalculated,secondary,total,19.79971021374014,National
+learner_toilet_ratio_recalculated,preprimary_ece,total,18.420668209287,Nyeri
+learner_toilet_ratio_recalculated,primary,total,14.770023779779516,Nyeri
+learner_toilet_ratio_recalculated,secondary,total,12.92872664831098,Nyeri
 learner_toilet_ratio_recalculated,preprimary_ece,total,79.9312931834588,Samburu
 learner_toilet_ratio_recalculated,primary,total,44.67292013082349,Samburu
 learner_toilet_ratio_recalculated,secondary,total,19.61356651052921,Samburu
+learner_toilet_ratio_recalculated,preprimary_ece,total,24,Taita Taveta
+learner_toilet_ratio_recalculated,primary,total,24.702983090204302,Taita Taveta
+learner_toilet_ratio_recalculated,secondary,total,22,Taita Taveta
 learner_toilet_ratio_recalculated,preprimary_ece,total,93.91505647495724,Tana River
 learner_toilet_ratio_recalculated,primary,total,46.28076632035124,Tana River
 learner_toilet_ratio_recalculated,secondary,total,22.699773666470303,Tana River
@@ -943,8 +1525,19 @@ learner_toilet_ratio_recalculated,secondary,total,34.327208796492826,Turkana
 learner_toilet_ratio_recalculated,preprimary_ece,total,124.78322525600706,Wajir
 learner_toilet_ratio_recalculated,primary,total,58.01546608388669,Wajir
 learner_toilet_ratio_recalculated,secondary,total,37.31794948887553,Wajir
+learner_toilet_ratio_recalculated,preprimary_ece,total,55.9245840706162,West Pokot
+learner_toilet_ratio_recalculated,primary,total,47.39145977197185,West Pokot
+learner_toilet_ratio_recalculated,secondary,total,20.33674473349951,West Pokot
+learner_toilet_ratio_recalculated,preprimary_ece,boys,57,Kwale
+learner_toilet_ratio_recalculated,preprimary_ece,girls,46,Kwale
+learner_toilet_ratio_recalculated,preprimary_ece,boys,59,Kilifi
+learner_toilet_ratio_recalculated,preprimary_ece,girls,53,Kilifi
 learner_toilet_ratio_recalculated,preprimary_ece,boys,100,Tana River
 learner_toilet_ratio_recalculated,preprimary_ece,girls,88,Tana River
+learner_toilet_ratio_recalculated,preprimary_ece,boys,64,Lamu
+learner_toilet_ratio_recalculated,preprimary_ece,girls,56,Lamu
+learner_toilet_ratio_recalculated,preprimary_ece,boys,24,Taita Taveta
+learner_toilet_ratio_recalculated,preprimary_ece,girls,24,Taita Taveta
 learner_toilet_ratio_recalculated,preprimary_ece,boys,68,Garissa
 learner_toilet_ratio_recalculated,preprimary_ece,girls,56,Garissa
 learner_toilet_ratio_recalculated,preprimary_ece,boys,136,Wajir
@@ -957,22 +1550,40 @@ learner_toilet_ratio_recalculated,preprimary_ece,boys,76,Isiolo
 learner_toilet_ratio_recalculated,preprimary_ece,girls,78,Isiolo
 learner_toilet_ratio_recalculated,preprimary_ece,boys,31,Meru
 learner_toilet_ratio_recalculated,preprimary_ece,girls,26,Meru
+learner_toilet_ratio_recalculated,preprimary_ece,boys,23,Embu
+learner_toilet_ratio_recalculated,preprimary_ece,girls,17,Embu
 learner_toilet_ratio_recalculated,preprimary_ece,boys,22,Kitui
 learner_toilet_ratio_recalculated,preprimary_ece,girls,15,Kitui
 learner_toilet_ratio_recalculated,preprimary_ece,boys,16,Makueni
 learner_toilet_ratio_recalculated,preprimary_ece,girls,14,Makueni
+learner_toilet_ratio_recalculated,preprimary_ece,boys,20,Nyeri
+learner_toilet_ratio_recalculated,preprimary_ece,girls,17,Nyeri
 learner_toilet_ratio_recalculated,preprimary_ece,boys,187,Turkana
 learner_toilet_ratio_recalculated,preprimary_ece,girls,176,Turkana
+learner_toilet_ratio_recalculated,preprimary_ece,boys,58,West Pokot
+learner_toilet_ratio_recalculated,preprimary_ece,girls,54,West Pokot
 learner_toilet_ratio_recalculated,preprimary_ece,boys,85,Samburu
 learner_toilet_ratio_recalculated,preprimary_ece,girls,75,Samburu
 learner_toilet_ratio_recalculated,preprimary_ece,boys,37,Baringo
 learner_toilet_ratio_recalculated,preprimary_ece,girls,32,Baringo
 learner_toilet_ratio_recalculated,preprimary_ece,boys,37,Laikipia
 learner_toilet_ratio_recalculated,preprimary_ece,girls,33,Laikipia
+learner_toilet_ratio_recalculated,preprimary_ece,boys,41,Narok
+learner_toilet_ratio_recalculated,preprimary_ece,girls,31,Narok
+learner_toilet_ratio_recalculated,preprimary_ece,boys,35,Kajiado
+learner_toilet_ratio_recalculated,preprimary_ece,girls,26,Kajiado
 learner_toilet_ratio_recalculated,preprimary_ece,boys,40,National
 learner_toilet_ratio_recalculated,preprimary_ece,girls,34,National
+learner_toilet_ratio_recalculated,primary,boys,48,Kwale
+learner_toilet_ratio_recalculated,primary,girls,39,Kwale
+learner_toilet_ratio_recalculated,primary,boys,42,Kilifi
+learner_toilet_ratio_recalculated,primary,girls,48,Kilifi
 learner_toilet_ratio_recalculated,primary,boys,50,Tana River
 learner_toilet_ratio_recalculated,primary,girls,43,Tana River
+learner_toilet_ratio_recalculated,primary,boys,40,Lamu
+learner_toilet_ratio_recalculated,primary,girls,39,Lamu
+learner_toilet_ratio_recalculated,primary,boys,28,Taita Taveta
+learner_toilet_ratio_recalculated,primary,girls,22,Taita Taveta
 learner_toilet_ratio_recalculated,primary,boys,49,Garissa
 learner_toilet_ratio_recalculated,primary,girls,35,Garissa
 learner_toilet_ratio_recalculated,primary,boys,66,Wajir
@@ -985,22 +1596,40 @@ learner_toilet_ratio_recalculated,primary,boys,30,Isiolo
 learner_toilet_ratio_recalculated,primary,girls,30,Isiolo
 learner_toilet_ratio_recalculated,primary,boys,24,Meru
 learner_toilet_ratio_recalculated,primary,girls,20,Meru
+learner_toilet_ratio_recalculated,primary,boys,19,Embu
+learner_toilet_ratio_recalculated,primary,girls,16,Embu
 learner_toilet_ratio_recalculated,primary,boys,13,Kitui
 learner_toilet_ratio_recalculated,primary,girls,23,Kitui
 learner_toilet_ratio_recalculated,primary,boys,24,Makueni
 learner_toilet_ratio_recalculated,primary,girls,21,Makueni
+learner_toilet_ratio_recalculated,primary,boys,17,Nyeri
+learner_toilet_ratio_recalculated,primary,girls,13,Nyeri
 learner_toilet_ratio_recalculated,primary,boys,88,Turkana
 learner_toilet_ratio_recalculated,primary,girls,65,Turkana
+learner_toilet_ratio_recalculated,primary,boys,50,West Pokot
+learner_toilet_ratio_recalculated,primary,girls,45,West Pokot
 learner_toilet_ratio_recalculated,primary,boys,50,Samburu
 learner_toilet_ratio_recalculated,primary,girls,40,Samburu
 learner_toilet_ratio_recalculated,primary,boys,32,Baringo
 learner_toilet_ratio_recalculated,primary,girls,27,Baringo
 learner_toilet_ratio_recalculated,primary,boys,26,Laikipia
 learner_toilet_ratio_recalculated,primary,girls,21,Laikipia
+learner_toilet_ratio_recalculated,primary,boys,47,Narok
+learner_toilet_ratio_recalculated,primary,girls,40,Narok
+learner_toilet_ratio_recalculated,primary,boys,45,Kajiado
+learner_toilet_ratio_recalculated,primary,girls,37,Kajiado
 learner_toilet_ratio_recalculated,primary,boys,33,National
 learner_toilet_ratio_recalculated,primary,girls,30,National
+learner_toilet_ratio_recalculated,secondary,boys,27,Kwale
+learner_toilet_ratio_recalculated,secondary,girls,20,Kwale
+learner_toilet_ratio_recalculated,secondary,boys,33,Kilifi
+learner_toilet_ratio_recalculated,secondary,girls,30,Kilifi
 learner_toilet_ratio_recalculated,secondary,boys,29,Tana River
 learner_toilet_ratio_recalculated,secondary,girls,18,Tana River
+learner_toilet_ratio_recalculated,secondary,boys,19,Lamu
+learner_toilet_ratio_recalculated,secondary,girls,22,Lamu
+learner_toilet_ratio_recalculated,secondary,boys,22,Taita Taveta
+learner_toilet_ratio_recalculated,secondary,girls,22,Taita Taveta
 learner_toilet_ratio_recalculated,secondary,boys,23,Garissa
 learner_toilet_ratio_recalculated,secondary,girls,26,Garissa
 learner_toilet_ratio_recalculated,secondary,boys,46,Wajir
@@ -1013,17 +1642,27 @@ learner_toilet_ratio_recalculated,secondary,boys,19,Isiolo
 learner_toilet_ratio_recalculated,secondary,girls,18,Isiolo
 learner_toilet_ratio_recalculated,secondary,boys,18,Meru
 learner_toilet_ratio_recalculated,secondary,girls,15,Meru
+learner_toilet_ratio_recalculated,secondary,boys,12,Embu
+learner_toilet_ratio_recalculated,secondary,girls,13,Embu
 learner_toilet_ratio_recalculated,secondary,boys,17,Kitui
 learner_toilet_ratio_recalculated,secondary,girls,15,Kitui
 learner_toilet_ratio_recalculated,secondary,boys,19,Makueni
 learner_toilet_ratio_recalculated,secondary,girls,16,Makueni
+learner_toilet_ratio_recalculated,secondary,boys,12,Nyeri
+learner_toilet_ratio_recalculated,secondary,girls,14,Nyeri
 learner_toilet_ratio_recalculated,secondary,boys,40,Turkana
 learner_toilet_ratio_recalculated,secondary,girls,28,Turkana
+learner_toilet_ratio_recalculated,secondary,boys,23,West Pokot
+learner_toilet_ratio_recalculated,secondary,girls,18,West Pokot
 learner_toilet_ratio_recalculated,secondary,boys,21,Samburu
 learner_toilet_ratio_recalculated,secondary,girls,18,Samburu
 learner_toilet_ratio_recalculated,secondary,boys,20,Baringo
 learner_toilet_ratio_recalculated,secondary,girls,17,Baringo
 learner_toilet_ratio_recalculated,secondary,boys,18,Laikipia
 learner_toilet_ratio_recalculated,secondary,girls,14,Laikipia
+learner_toilet_ratio_recalculated,secondary,boys,22,Narok
+learner_toilet_ratio_recalculated,secondary,girls,19,Narok
+learner_toilet_ratio_recalculated,secondary,boys,25,Kajiado
+learner_toilet_ratio_recalculated,secondary,girls,20,Kajiado
 learner_toilet_ratio_recalculated,secondary,boys,22,National
 learner_toilet_ratio_recalculated,secondary,girls,18,National

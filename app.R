@@ -85,7 +85,8 @@ make_dodged_plot_4 <- function(tbl) {
 
 
 ui <- dashboardPage(
-  dashboardHeader(title = "County Profiles"), 
+  dashboardHeader(title = tags$a(href="https://kenya-eie-wg.github.io/", 
+                                 tags$img(src = "https://raw.githubusercontent.com/kenya-eie-wg/kenya_education_county_profiles/main/eie_wg_logo_small.png"))), 
   
   dashboardSidebar(
     sidebarMenu(
@@ -113,21 +114,41 @@ ui <- dashboardPage(
   ), 
   
   dashboardBody(
+    
+    tags$head(tags$style(HTML(
+      '.myClass { 
+        font-size: 20px;
+        line-height: 50px;
+        text-align: left;
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        padding: 0 15px;
+        overflow: hidden;
+        color: white;
+      }
+    '))),
+    tags$script(HTML('
+      $(document).ready(function() {
+        $("header").find("nav").append(\'<span class="myClass"> Kenya Education County Profiles </span>\');
+      })
+     ')), 
+    
     tabItems(
       tabItem(tabName = "key_figures",
               
               fluidRow(box(uiOutput("county_selector_1"),
-                           width = 4), 
+                           width = 5), 
+                       box(textOutput("sources_1"), 
+                           width = 5),
                        box(actionButton(inputId = "screenshot_1", 
                                         label = "Screenshot Page"), 
-                           width = 4)),
+                           width = 2)),
               
-              fluidRow(box(plotOutput("county_population_1"), 
-                              width = 4),
+              fluidRow( 
+                       box(plotOutput("county_population_1"), 
+                              width = 6),
                        box(plotOutput("school_aged_children_1"), 
-                              width = 4), 
-                       box(textOutput("sources_1"), 
-                           width = 4)
+                              width = 6) 
+                       
                        ), 
               
               fluidRow(box(plotOutput("oos_preprimary_1"), 
@@ -141,9 +162,10 @@ ui <- dashboardPage(
       
       tabItem(tabName = "education_indicators", 
               
-              fluidRow(box(uiOutput("county_selector_2")), 
+              fluidRow(box(uiOutput("county_selector_2"), width = 5), 
+                       box(textOutput("sources_2"), width = 5), 
                        box(actionButton(inputId = "screenshot_2", 
-                                        label = "Screenshot Page"))), 
+                                        label = "Screenshot Page"), width = 2)), 
               
               fluidRow(box(plotOutput("net_enrolment_rate_2"), width = 6), 
                        box(plotOutput("gender_parity_index_2"), width = 6)), 
@@ -154,9 +176,10 @@ ui <- dashboardPage(
       
       tabItem(tabName = "child_protection_indicators", 
               
-              fluidRow(box(uiOutput("county_selector_3")), 
+              fluidRow(box(uiOutput("county_selector_3"), width = 5), 
+                       box(textOutput("sources_3"), width = 5), 
                        box(actionButton(inputId = "screenshot_3", 
-                                        label = "Screenshot Page"))), 
+                                        label = "Screenshot Page"), width = 2)), 
               
               fluidRow(box(plotOutput("child_protection_indicators_3"), 
                            width = 10))
@@ -164,9 +187,10 @@ ui <- dashboardPage(
       
       tabItem(tabName = "school_based_ratios", 
               
-              fluidRow(box(uiOutput("county_selector_4")), 
+              fluidRow(box(uiOutput("county_selector_4"), width = 5), 
+                       box(textOutput("sources_4"), width = 5),
                        box(actionButton(inputId = "screenshot_4", 
-                                        label = "Screenshot Page"))), 
+                                        label = "Screenshot Page"), width = 2)), 
               
               fluidRow(box(plotOutput("education_institutions_4"), width = 6), 
                        box(plotOutput("learner_teacher_ratio_4"), width = 6)), 
@@ -177,9 +201,9 @@ ui <- dashboardPage(
       
       tabItem(tabName = "map_asal_counties", 
               
-              fluidRow(box(uiOutput("county_selector_5")), 
+              fluidRow(box(uiOutput("county_selector_5"), width = 5),
                        box(actionButton(inputId = "screenshot_5", 
-                                        label = "Screenshot Page"))),
+                                        label = "Screenshot Page"), width = 2)),
               
               fluidRow(box(plotOutput("map_asal_counties_5"),
                            width = 12, height = 425)))
@@ -278,6 +302,7 @@ server <- function(input, output) {
       
     })
  
+
   output$oos_preprimary_1 <- renderPlot({
     
     req(input$v_county_1)
@@ -307,7 +332,7 @@ server <- function(input, output) {
     counties %>% 
       filter(county == input$v_county_1) %>% 
       filter(str_detect(indicator, "out_of_school_children") & 
-               age_modifier == "preprimary_ece" & 
+               age_modifier == "primary" & 
                sex_modifier != "total") %>% 
       pie_chart() + 
       labs(title = expression(paste("Out-of-school children, Primary (6-13 years", ")"^2)),
@@ -329,7 +354,7 @@ server <- function(input, output) {
     counties %>% 
       filter(county == input$v_county_1) %>% 
       filter(str_detect(indicator, "out_of_school_children") & 
-               age_modifier == "preprimary_ece" & 
+               age_modifier == "secondary" & 
                sex_modifier != "total") %>% 
       pie_chart() + 
       labs(title = expression(paste("Out-of-school children, Secondary (14-17 years", ")"^2)),
@@ -422,8 +447,13 @@ server <- function(input, output) {
                                                         "Pre-primary\n/ECE"))) %>% 
       ggplot(aes(x = value, y = age_modifier, fill = sex_modifier)) +
       geom_col(position = position_dodge()) + 
-      geom_text(aes(label = comma(value)), position = position_dodge(width = .9), 
+      geom_text(aes(label = ifelse(value != 0, value, "")),
+                position = position_dodge(width = .9), 
                 hjust = 1, colour = "white", size = 3) + 
+      geom_text(aes(label = ifelse(value == 0, value, "")),
+                position = position_dodge(width = .9),
+                hjust = -.5, 
+                colour = "grey50", size = 3) + 
       scale_fill_manual(values = c("#002021", "#19686a")) + 
       scale_x_continuous(labels = comma) + 
       theme(legend.position = "top", 
@@ -660,7 +690,27 @@ server <- function(input, output) {
       labs(title = paste0("Location of ", input$v_county_5, " County"))
   })
   
+  output$sources_1 <- renderText({
+    
+    print("SOURCES: [1] 2019 Kenya Population and Housing Census and 2023 Population Projections, Analytical Report, (KNBS). [2] 2021 Out-of-School Children Initiative study, (K MoE).")
+  })
+  
+  output$sources_2 <- renderText({
+    
+    print("SOURCES: [3] 2020 Basic Education Statistical Book, (K MoE).  [5] Enrolment figures from 2022 Short and long Rain Assessments (NDMA). [6] In this profile, Primary level includes Grades 1-8.")
+  })
+  
+  output$sources_3 <- renderText({
+    
+    print("SOURCES: [4] 2022 Kenya Demographic and Health Survey, Key Indicators Report, (KNBS).")
+  })
+  
+  output$sources_4 <- renderText({
+    
+    print("SOURCES: [3] 2020 Basic Education Statistical Book, (K MoE). [6] In this profile, Primary level includes Grades 1-8.    ")
+  })
 
+  
   observeEvent(input$screenshot_1, {
     shinyjs::addCssClass(selector = "body", class = "sidebar-collapse")
     screenshot(
