@@ -86,7 +86,7 @@ make_dodged_plot_4 <- function(tbl) {
 
 ui <- dashboardPage(
   dashboardHeader(title = tags$a(href="https://kenya-eie-wg.github.io/", 
-                                 tags$img(src = "https://raw.githubusercontent.com/kenya-eie-wg/kenya_education_county_profiles/main/eie_wg_logo_small.png"))), 
+                                 tags$img(src = "https://github.com/kenya-eie-wg/kenya_county_profiles_dashboard/raw/main/logo_small.png"))), 
   
   dashboardSidebar(
     sidebarMenu(
