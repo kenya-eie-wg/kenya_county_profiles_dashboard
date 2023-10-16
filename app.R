@@ -14,7 +14,11 @@ library(sf)
 library(scales)
 library(gridExtra)
 library(ggpubr)
+library(viridis)
 library(shinyscreenshot)
+
+`%out%` <- Negate(`%in%`)
+options(scipen = 100)
 
 locations <- read_csv("./data/locations.csv")
 
@@ -25,6 +29,14 @@ pcode1_shape <-
 
 counties <- read_csv("./data/counties.csv") 
 
+counties_sub_indicators <- read_csv("./data/counties_sub_indicators.csv")
+
+sub_indicator_list <- counties_sub_indicators %>% 
+  filter(!str_detect(sub_indicator, "Fgm")) %>%
+  distinct(sub_indicator) %>%
+  arrange(sub_indicator) %>% 
+  pull()
+  
 asal_county_list <- counties %>% 
   distinct(county) %>% 
   filter(county != "National") %>% 
@@ -81,7 +93,8 @@ make_dodged_plot_4 <- function(tbl) {
     guides(fill = guide_legend(override.aes = list(size = 0.3)))
 }
 
-# ui
+linebreaks <- function(n){HTML(strrep(br(), n))}
+
 
 
 ui <- dashboardPage(
@@ -110,7 +123,15 @@ ui <- dashboardPage(
       
       menuItem("ASAL Counties Map", 
                tabName = "map_asal_counties", 
-               icon = icon("earth-africa"))
+               icon = icon("earth-africa")), 
+      
+      menuItem("Indicator Comparison", 
+               tabName = "indicator_comparison", 
+               icon = icon("sort-amount-asc")), 
+      
+      menuItem("County Profile PDFs", 
+               tabName = "download_pdfs", 
+               icon = icon("download"))
     )
   ), 
   
@@ -129,7 +150,7 @@ ui <- dashboardPage(
     '))),
     tags$script(HTML('
       $(document).ready(function() {
-        $("header").find("nav").append(\'<span class="myClass"> Kenya Education County Profiles </span>\');
+        $("header").find("nav").append(\'<span class="myClass"> Kenya ASAL County Education Profiles </span>\');
       })
      ')), 
     
@@ -206,8 +227,123 @@ ui <- dashboardPage(
                        box(actionButton(inputId = "screenshot_5", 
                                         label = "Screenshot Page"), width = 2)),
               
-              fluidRow(box(plotOutput("map_asal_counties_5"),
-                           width = 12, height = 425)))
+              fluidRow(box(plotOutput("map_asal_counties_5", height = 550),
+                           width = 12))),
+      
+      tabItem(tabName = "indicator_comparison", 
+              
+              fluidRow(box(uiOutput("indicator_selector_6"), width = 6), 
+                       box(uiOutput("indicator_selector_7"), width = 6)), 
+              
+              fluidRow(box(plotOutput("indicator_plot_6", height = 500), width = 6), 
+                       box(plotOutput("indicator_plot_7", height = 500), width = 6)), 
+              
+              fluidRow(box(actionButton(inputId = "screenshot_6", 
+                                        label = "Screenshot Page"), width = 2))),
+      
+      tabItem(tabName = "download_pdfs", 
+              
+              fluidRow(box(
+                baringo_county <- a("Baringo County", href = "https://github.com/kenya-eie-wg/kenya_education_county_profiles/raw/main/pdf/baringo_county.pdf"),
+                
+                linebreaks(1), 
+                
+                embu_county <- a("Embu County", href = "https://github.com/kenya-eie-wg/kenya_education_county_profiles/raw/main/pdf/embu_county.pdf"),
+                
+                linebreaks(1), 
+                
+                garissa_county <- a("Garissa County", href = "https://github.com/kenya-eie-wg/kenya_education_county_profiles/raw/main/pdf/garrisa_county.pdf"), 
+                
+                linebreaks(1), 
+                
+                isiolo_county <- a("Isiolo County", href = "https://github.com/kenya-eie-wg/kenya_education_county_profiles/raw/main/pdf/isiolo_county.pdf"),
+                
+                linebreaks(1), 
+                
+                kajiado_county <- a("Kajiado County", href = "https://github.com/kenya-eie-wg/kenya_education_county_profiles/raw/main/pdf/kajiado_county.pdf"),
+                
+                linebreaks(1), 
+                
+                kilifi_county <- a("Kilifi County", href = "https://github.com/kenya-eie-wg/kenya_education_county_profiles/raw/main/pdf/kilifi_county.pdf"),
+                
+                linebreaks(1), 
+                
+                kitui_county <- a("Kitui County", href = "https://github.com/kenya-eie-wg/kenya_education_county_profiles/raw/main/pdf/kitui_county.pdf"),
+                
+                linebreaks(1), 
+                
+                kwale_county <- a("Kwale County", href = "https://github.com/kenya-eie-wg/kenya_education_county_profiles/raw/main/pdf/kwale_county.pdf"),
+                
+                linebreaks(1), 
+                
+                laikipia_county <- a("Laikipia County", href = "https://github.com/kenya-eie-wg/kenya_education_county_profiles/raw/main/pdf/laikipia_county.pdf"),
+                
+                linebreaks(1), 
+                
+                lamu_county <- a("Lamu County", href = "https://github.com/kenya-eie-wg/kenya_education_county_profiles/raw/main/pdf/lamu_county.pdf"),
+                
+                linebreaks(1), 
+                
+                makueni_county <- a("Makueni County", href = "https://github.com/kenya-eie-wg/kenya_education_county_profiles/raw/main/pdf/makueni_county.pdf"),
+                
+                linebreaks(1), 
+                
+                mandera_county <- a("Mandera County", href = "https://github.com/kenya-eie-wg/kenya_education_county_profiles/raw/main/pdf/mandera_county.pdf"),
+                
+                linebreaks(1), 
+                
+                marsabit_county <- a("Marsabit County", href = "https://github.com/kenya-eie-wg/kenya_education_county_profiles/raw/main/pdf/marsabit_county.pdf"),
+                
+                linebreaks(1), 
+                
+                meru_county <- a("Meru County", href = "https://github.com/kenya-eie-wg/kenya_education_county_profiles/raw/main/pdf/meru_county.pdf"),
+                
+                linebreaks(1), 
+                
+                narok_county <- a("Narok County", href = "https://github.com/kenya-eie-wg/kenya_education_county_profiles/raw/main/pdf/narok_county.pdf"),
+                
+                linebreaks(1), 
+                
+                nyeri_county <- a("Nyeri County", href = "https://github.com/kenya-eie-wg/kenya_education_county_profiles/raw/main/pdf/nyeri_county.pdf"),
+                
+                linebreaks(1), 
+                
+                samburu_county <- a("Samburu County", href = "https://github.com/kenya-eie-wg/kenya_education_county_profiles/raw/main/pdf/samburu_county.pdf"),
+                
+                linebreaks(1), 
+                
+                taita_taveta_county <- a("Taita Taveta County", href = "https://github.com/kenya-eie-wg/kenya_education_county_profiles/raw/main/pdf/taita_taveta_county.pdf"),
+                
+                linebreaks(1), 
+                
+                tana_river_county <- a("Tana River County", href = "https://github.com/kenya-eie-wg/kenya_education_county_profiles/raw/main/pdf/tana_river_county.pdf"),
+                
+                linebreaks(1), 
+                
+                tharaka_nithi_county <- a("Tharaka Nithi County", href = "https://github.com/kenya-eie-wg/kenya_education_county_profiles/raw/main/pdf/tharaka_nithi_county.pdf"),
+                
+                linebreaks(1), 
+                
+                turkana_county <- a("Isiolo County", href = "https://github.com/kenya-eie-wg/kenya_education_county_profiles/raw/main/pdf/turkana_county.pdf"),
+                
+                linebreaks(1), 
+                
+                wajir_county <- a("Wajir County", href = "https://github.com/kenya-eie-wg/kenya_education_county_profiles/raw/main/pdf/wajir_county.pdf"), 
+                
+                linebreaks(1), 
+                
+                west_pokot_county <- a("West Pokot County", href = "https://github.com/kenya-eie-wg/kenya_education_county_profiles/raw/main/pdf/west_pokot_county.pdf"), 
+                
+                linebreaks(3), 
+                
+                dataset_long <- a("ASAL County Dataset -- download button in top-right", href = "https://github.com/kenya-eie-wg/kenya_education_county_profiles/blob/main/data/counties.csv"),
+                
+                
+                linebreaks(1), 
+                
+                dataset_flat <- a("ASAL County Dataset FLAT for spreadsheet software-- download button in top-right", href = "https://github.com/kenya-eie-wg/kenya_education_county_profiles/blob/main/data/counties_flat.csv")
+                
+              )))
     )
   )
 )
@@ -261,6 +397,19 @@ server <- function(input, output) {
       
     })
 
+    output$indicator_selector_6 <- renderUI({
+      
+      selectInput(inputId = "v_indicator_6", 
+                  label = "Select Sub-Indicator", 
+                  choices = sub_indicator_list)
+    })
+    
+    output$indicator_selector_7 <- renderUI({
+      
+      selectInput(inputId = "v_indicator_7", 
+                  label = "Select 2nd Sub-Indicator", 
+                  choices = sub_indicator_list)
+    })
     
   output$county_population_1 <- renderPlot({
       
@@ -691,6 +840,54 @@ server <- function(input, output) {
       labs(title = paste0("Location of ", input$v_county_5, " County"))
   })
   
+  output$indicator_plot_6 <- renderPlot({
+    
+    req(input$v_indicator_6)
+    
+    counties_sub_indicators %>% 
+      filter(!str_detect(sub_indicator, "FGM")) %>% 
+      filter(sub_indicator == input$v_indicator_6) %>% 
+      filter(case_when(
+        str_detect(sub_indicator, "Education Institutions") & county == "National" ~ FALSE, 
+        TRUE ~ TRUE
+      )) %>% 
+      ggplot(aes(x = value, y = fct_reorder(county, value), fill = value)) + 
+      geom_col() + 
+      geom_text(aes(label = comma(value)), size = 5, hjust = "inward") +
+      scale_fill_viridis() + 
+      labs(x = "Value", 
+           y = "", 
+           title = paste0(input$v_indicator_6)) +
+      theme(legend.position = "none", 
+            plot.title = element_text(size = 9), 
+            axis.text.y = element_text(size = 9))
+      
+  })
+  
+  output$indicator_plot_7 <- renderPlot({
+    
+    req(input$v_indicator_7)
+    
+    counties_sub_indicators %>% 
+      filter(!str_detect(sub_indicator, "FGM")) %>% 
+      filter(sub_indicator == input$v_indicator_7) %>% 
+      filter(case_when(
+        str_detect(sub_indicator, "Education Institutions") & county == "National" ~ FALSE, 
+        TRUE ~ TRUE
+      )) %>% 
+      ggplot(aes(x = value, y = fct_reorder(county, value), fill = value)) + 
+      geom_col() + 
+      geom_text(aes(label = comma(value)), size = 5, hjust = "inward") + 
+      scale_fill_viridis() + 
+      labs(x = "Value", 
+           y = "", 
+           title = paste0(input$v_indicator_7)) +
+      theme(legend.position = "none", 
+            plot.title = element_text(size = 9), 
+            axis.text.y = element_text(size = 9))
+    
+  })
+  
   output$sources_1 <- renderText({
     
     print("SOURCES: [1] 2019 Kenya Population and Housing Census and 2023 Population Projections, Analytical Report, (KNBS). [2] 2021 Out-of-School Children Initiative study, (K MoE).")
@@ -749,6 +946,14 @@ server <- function(input, output) {
     screenshot(
       # selector = "body > div > div > section"
       filename = paste0(input$v_county_5, "_location_map")
+    )
+  })
+  
+  observeEvent(input$screenshot_6, {
+    shinyjs::addCssClass(selector = "body", class = "sidebar-collapse")
+    screenshot(
+      # selector = "body > div > div > section"
+      filename = paste0("indicator_comparison")
     )
   })
 }

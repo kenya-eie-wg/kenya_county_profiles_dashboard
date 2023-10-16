@@ -3,7 +3,7 @@
     "path": "~/R/kenya_county_profiles_dashboard/app.R",
     "project_path": "app.R",
     "type": "r_source",
-    "hash": "1848188966",
+    "hash": "0",
     "contents": "",
     "dirty": false,
     "created": 1695616482388.0,
@@ -12,16 +12,16 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "27,16",
-        "scrollLine": "6",
+        "cursorPosition": "42,22",
+        "scrollLine": "28",
         "docOutlineVisible": "1"
     },
-    "folds": "218|42|225|4|\n227|42|234|4|\n236|42|243|4|\n471|42|498|2|\n500|54|528|2|\n666|44|691|2|\n",
-    "lastKnownWriteTime": 1696325177,
+    "folds": "354|42|361|4|\n363|42|370|4|\n372|42|379|4|\n620|42|647|2|\n649|54|677|2|\n815|44|840|2|\n",
+    "lastKnownWriteTime": 1697449324,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1696325177413,
+    "last_content_update": 1697449324629,
     "read_only": false,
     "read_only_alternatives": []
 }
