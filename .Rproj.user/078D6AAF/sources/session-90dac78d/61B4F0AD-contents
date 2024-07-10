@@ -96,7 +96,6 @@ make_dodged_plot_4 <- function(tbl) {
 linebreaks <- function(n){HTML(strrep(br(), n))}
 
 
-
 ui <- dashboardPage(
   dashboardHeader(
     title = tags$a(href="https://kenya-eie-wg.github.io/",
